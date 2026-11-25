@@ -1,0 +1,10 @@
+services:
+  frontend:
+    image: hapsal/frontend-test
+    ports:
+      - 5001:5001
+
+  backend:
+    image: hapsal/backend-test
+    ports:
+      - 8080:8080
